@@ -5,8 +5,8 @@ from .views import *
 
 # Create a router and register our viewsets with it.
 router = DefaultRouter()
-router.register(r'items', ItemViewSet)
-router.register(r'warehouse', WarehouseViewSet)
+router.register(r'/items', ItemViewSet)
+router.register(r'/warehouse', WarehouseViewSet)
 
 # The API URLs are now determined automatically by the router.
 urlpatterns = [
@@ -16,5 +16,5 @@ urlpatterns = [
     path(r'warehouse/<int:id>', WarehouseDetail.as_view()),
     path(r'items/<int:id>', ItemDetail.as_view()),
     path(r'trash/<int:id>', ItemDetail.as_view()),
-    path(r'add/', include(router.urls), name="add items or warehouse"),
+    path(r'add', include(router.urls), name="add items or warehouse"),
 ]
