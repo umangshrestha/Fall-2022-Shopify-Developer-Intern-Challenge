@@ -3,7 +3,7 @@ This repo is part of pre-interview for `Backend Intern` postion. The instructino
 
 ## 1. Tasks
 
-[x] disabled checked /> CRUD Functionality  
+[x] CRUD Functionality  
 
 [ ] When deleting, allow deletion comments and undeletion  
 
