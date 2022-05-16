@@ -31,7 +31,7 @@ $ pip install -r requirements.txt
 $ python3 manage.py runserver 0.0.0.0:8000
 ```
 ## 4. Links
-Since the task didnt ask for frontend, and I donot have any extra time I decided to use [Django](https://docs.djangoproject.com/en/4.0/) rest_framework's [browsable API](https://www.django-rest-framework.org/topics/browsable-api/) for basic UI interface. No GUI has been added for any of the operations.
+Since the task didn't ask for frontend, and I donot have any extra time I decided to use [Django](https://docs.djangoproject.com/en/4.0/) rest_framework's [Browsable API](https://www.django-rest-framework.org/topics/browsable-api/) for basic UI interface. No GUI has been added for any of the operations.
 
 To add the links:
 - List of Items --> [http://127.0.0.1:8000/items](http://127.0.0.1:8000/items/)
