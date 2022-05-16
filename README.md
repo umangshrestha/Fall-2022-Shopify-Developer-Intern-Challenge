@@ -22,7 +22,7 @@ $ sudo apt install python3.9
 ```
 - Dependencies
 ```
-$ pip install -u upgrade pip
+$ pip install --upgrade pip
 $ pip install -r requirements.txt
 ```
 
