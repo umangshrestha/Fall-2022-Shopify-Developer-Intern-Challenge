@@ -1,9 +1,8 @@
 from datetime import datetime
 from rest_framework import fields, serializers
 from .models import *
-from rest_framework.permissions import DjangoModelPermissions
 
-__all__ = ["ItemSerializer", "WarehouseSerializer", "TrashSerializer"]
+__all__ = ["ItemSerializer", "WarehouseSerializer"]
 
 class WarehouseSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
@@ -15,10 +14,10 @@ class ItemSerializer(serializers.ModelSerializer):
     supplier = WarehouseSerializer
     class Meta:
         model  = Item
-        fields = ("id", "name", "quantity", "price_per_item", "description", "warehouse")
+        fields = ("id", "name", "quantity", "price_per_item", "description", "warehouse_id")
 
-class TrashSerializer(serializers.ModelSerializer):
-    supplier = WarehouseSerializer
-    class Meta:
-        model  = Item
-        fields = ("id", "name", "quantity", "price_per_item", "description", "warehouse", "is_deleted")
+# class TrashSerializer(serializers.ModelSerializer):
+#     supplier = WarehouseSerializer
+#     class Meta:
+#         model  = Item
+#         fields = ("id", "name", "quantity", "price_per_item", "description", "warehouse", "is_deleted")

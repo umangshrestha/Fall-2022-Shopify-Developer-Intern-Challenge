@@ -21,10 +21,9 @@ class Item(models.Model):
     name        = models.CharField(max_length=20)
     quantity    = models.IntegerField() 
     price_per_item  = models.IntegerField()
-    description = models.CharField(max_length=250, default="")
-    warehouse    = models.ForeignKey(Warehouse, on_delete=models.CASCADE)
+    description     = models.CharField(max_length=250, default="")
+    warehouse_id    = models.ForeignKey(Warehouse, on_delete=models.CASCADE)
     is_deleted  = models.BooleanField(default=False)
 
     def __str__(self) -> str:
         return self.name
-

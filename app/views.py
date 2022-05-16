@@ -22,9 +22,9 @@ class ItemDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Item.objects.filter(is_deleted=False)
     serializer_class = ItemSerializer
 
-class TrashDetail(generics.RetrieveUpdateDestroyAPIView):
-    queryset = Item.objects.filter(is_deleted=True)
-    serializer_class = ItemSerializer
+# class TrashDetail(generics.RetrieveUpdateDestroyAPIView):
+#     queryset = Item.objects.filter(is_deleted=True)
+#     serializer_class = ItemSerializer
 
 class WarehouseDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Warehouse.objects.all()
@@ -38,7 +38,7 @@ class ItemViewSet(viewsets.ModelViewSet):
     queryset = Item.objects.all()
     serializer_class = ItemSerializer
 
-class TrashDetail(viewsets.ModelViewSet):
-    queryset = Item.objects.filter(is_deleted=True)
-    serializer_class = TrashSerializer
+# class TrashDetail(viewsets.ModelViewSet):
+#     queryset = Item.objects.filter(is_deleted=True)
+#     serializer_class = TrashSerializer
 
