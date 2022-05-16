@@ -30,17 +30,16 @@ $ pip install -r requirements.txt
 ```
 $ python3 manage.py runserver 0.0.0.0:8000
 ```
-## 3. Links
+## 4. Links
 Since the task didnt ask for frontend, and I donot have any extra time I decided to use [Django](https://docs.djangoproject.com/en/4.0/) rest_framework's [browsable API](https://www.django-rest-framework.org/topics/browsable-api/) for basic UI interface. No GUI has been added for any of the operations.
 
 To add the links:
-1. List of Items --> [http://127.0.0.1:8000/items](http://127.0.0.1:8000/items/)
-2. List of Warehouse --> [http://127.0.0.1:8000/warehouse](http://127.0.0.1:8000/warehouse)
-3. Add new Items --> [http://127.0.0.1:8000/add/items](http://127.0.0.1:8000/items)
-4. Add new Warehouse --> [http://127.0.0.1:8000/add/warehouse](http://127.0.0.1:8000/add/warehouse)
-5. Edit prexisting Items --> [http://127.0.0.1:8000/items/\<id\>](http://127.0.0.1:8000/items/\<id\>)
-6. Edit prexisting Warehouse --> [http://127.0.0.1:8000/warehouse/\<id\>](http://127.0.0.1:8000/warehouse/\<id\>)
+- List of Items --> [http://127.0.0.1:8000/items](http://127.0.0.1:8000/items/)
+- List of Warehouse --> [http://127.0.0.1:8000/warehouse](http://127.0.0.1:8000/warehouse)
+- Add new Items --> [http://127.0.0.1:8000/add/items](http://127.0.0.1:8000/items)
+- Add new Warehouse --> [http://127.0.0.1:8000/add/warehouse](http://127.0.0.1:8000/add/warehouse)
+- Edit prexisting Items --> [http://127.0.0.1:8000/items/\<int: id\>](http://127.0.0.1:8000/items/\<id\>)
+-  Edit prexisting Warehouse --> [http://127.0.0.1:8000/warehouse/\<int: id\>](http://127.0.0.1:8000/warehouse/\<id\>)
 
-
-here: `<id>` is an unique identifier integer for given object.
+here: `<int:id>` is an unique identifier integer for given object.
 
