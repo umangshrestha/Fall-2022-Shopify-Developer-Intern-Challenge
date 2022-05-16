@@ -3,13 +3,13 @@ This repo is part of pre-interview for `Backend Intern` postion. The instructino
 
 ## 1. Tasks
 
-<input type="checkbox" disabled checked /> CRUD Functionality  
+[x] disabled checked /> CRUD Functionality  
 
-<input type="checkbox" disabled /> When deleting, allow deletion comments and undeletion  
+[ ] When deleting, allow deletion comments and undeletion  
 
-<input type="checkbox" disabled  checked/> Ability to create warehouses/locations and assign inventory to specific location
+[x] Ability to create warehouses/locations and assign inventory to specific location
 
-<input type="checkbox" disabled /> Ability to create “shipments” and assign inventory to the shipment, and adjust inventory
+[ ] Ability to create “shipments” and assign inventory to the shipment, and adjust inventory
 appropriately
 
 ## 2. Requirements
