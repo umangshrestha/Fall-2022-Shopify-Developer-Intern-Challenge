@@ -1,5 +1,5 @@
 # Fall 2022 Shopify Challenge 
-This repo is part of pre-interview for `Backend Intern` postion. The instructinos can be found here [instructions.pdf](doc/Fall2022-ShopifyDeveloperInternChallenge.pdf)
+This repo is part of pre-interview for `Backend Intern` postion. The instructions can be found here [instructions.pdf](doc/Fall2022-ShopifyDeveloperInternChallenge.pdf)
 
 ## 1. Tasks
 
